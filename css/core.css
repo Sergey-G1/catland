@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+    color: #000;
+}
+
+body {
+    font-family: 'Arial';
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+main {
+    min-width: 320px;
+    max-width: 100%;
+}
+
+.wrap {
+    min-width: 320px;
+    max-width: 990px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 340px) {
+    html, body, main {
+        width: 100%
+    }
+}
+
